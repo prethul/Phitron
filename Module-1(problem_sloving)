@@ -1,0 +1,14 @@
+inp= input()
+
+number = inp.split()
+
+x = int (number[0]) % 10
+y = int (number[1]) % 10
+
+sum = x + y
+
+print("the sum is", sum) 
+
+output :
+input : 12 13
+5
