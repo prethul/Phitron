@@ -1,0 +1,26 @@
+prompt = "What is phitron ?"
+
+tokens = prompt.split()
+print(type(tokens[0]))
+print(type(tokens))
+
+sentence = "_".join(tokens)
+print(type(sentence))
+
+output :
+<class 'str'>
+<class 'list'>
+<class 'str'>
+
+#formatted string->
+name = "prethul"
+age = 22
+height = 5.4676745
+
+info =f"I am {name.upper()}. I am {age} years old. I am {height:.2} feet tall."
+print(info)
+print(type(info))
+
+output:
+I am PRETHUL. I am 22 years old. I am 5.5 feet tall.
+<class 'str'>
