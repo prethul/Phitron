@@ -1,0 +1,7 @@
+brightness = 60
+threshold = 50
+
+if (brightness >= threshold):
+    print("ON")
+else:
+    print('OFF')
