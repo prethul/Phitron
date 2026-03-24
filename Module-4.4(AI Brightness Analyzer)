@@ -1,0 +1,18 @@
+pixels = input().split()
+
+total = 0
+count = 0
+
+for p in pixels:
+    value = int(p)
+    total += value
+    count += 1
+
+average = total / count
+
+if average < 85:
+    print("Dark Image")
+elif average <= 170:
+    print("Normal Image")
+else:
+    print("Bright Image")
