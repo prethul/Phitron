@@ -1,0 +1,15 @@
+N = int(input())
+YES = 0
+NO = 0
+
+for i in range(N):
+  vote = input()
+if vote == "YES":
+  YES = YES + 1
+else:
+  NO = NO + 1
+
+if YES >= NO:
+  print("ACCEPT")
+else:
+  print("REJECT")
