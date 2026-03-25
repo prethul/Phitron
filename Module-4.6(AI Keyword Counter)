@@ -1,0 +1,14 @@
+user_message = input()
+
+words =["ai","data","model","learn","train","neural"]
+
+message = user_message.split ()
+count = 0
+
+for word in words:
+  if word in message:
+    count = count + 1
+if count >= 2 :
+  print("AI Detected")  
+else:
+  print("Not AI Related")
