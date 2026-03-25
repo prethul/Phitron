@@ -1,0 +1,13 @@
+predictions = input().split()
+
+total = len(predictions)
+
+count_A = predictions.count('A')
+count_B = predictions.count('B')
+
+threshold = total * 0.7
+
+if count_A > threshold or count_B > threshold:
+    print("Biased Model")
+else:
+    print("Fair Model")
