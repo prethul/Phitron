@@ -1,0 +1,61 @@
+A ={1,2,3}
+print(type(A), A)
+
+#empty structure
+B = []
+print(type(B))
+
+C = ()
+print(type(C))
+
+D = set()
+print(type(D))
+output :
+<class 'set'> {1, 2, 3}
+<class 'list'>
+<class 'tuple'>
+<class 'set'>
+
+#Accessing part 
+S = {1,2,3,6,9,3}
+
+if 10 in S:
+    print("Present")
+else:
+    print("Not present")
+sum = 0
+for element in S:
+    sum = sum + element
+print(sum)    
+output :
+Not present
+21
+
+#mutable
+s ={4,3,1,6}
+s.add(2)
+s.add(0)
+print(s)
+s.pop()
+s.pop()
+print(s)
+
+s.remove(3)
+print(s)
+output :
+{0, 1, 2, 3, 4, 6}
+{2, 3, 4, 6}
+{2, 4, 6}
+
+#set mathmetical term 
+
+a = {1,2,3}
+b = {2,3,4,5}
+print(a.union(b))
+print(a.intersection(b))
+print(a.isdisjoint(b))
+
+output :
+{1, 2, 3, 4, 5}
+{2, 3}
+False
