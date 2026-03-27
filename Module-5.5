@@ -1,0 +1,28 @@
+dic ={
+    "Name" : "prethul",
+    "age" : 22,
+    "adress" : "Gazipur",
+    "numbers" : [10,20,30]
+}
+
+keys = dic.keys()
+
+print(keys)
+
+dic["math_marks"] = 89
+print(keys)
+
+#printing values...
+
+value = dic.values()
+print(value)
+
+dic["english_marks"] = 90
+print(value)
+
+output :
+dict_keys(['Name', 'age', 'adress', 'numbers'])
+dict_keys(['Name', 'age', 'adress', 'numbers', 'math_marks'])
+dict_values(['prethul', 22, 'Gazipur', [10, 20, 30], 89])
+dict_values(['prethul', 22, 'Gazipur', [10, 20, 30], 89, 90])
+
