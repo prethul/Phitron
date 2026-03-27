@@ -1,0 +1,51 @@
+print(dic)
+#printing default value
+print(dic.get("math_marks"))
+print(dic.get("math_marks",90))
+
+output :
+{'Name': 'phitro AI/ML', 'age': 22, 'adress': 'Gazipur', 'numbers': [10, 20, 30]}
+None
+90
+
+#adding values 
+
+dic ={
+    "Name" : "prethul",
+    "age" : 22,
+    "adress" : "Gazipur",
+    "numbers" : [10,20,30]
+}
+
+print(dic)
+
+dic["math_marks"] = 85
+print(dic)
+
+#updating...
+dic.update({"english_marks" : 81})
+print(dic)
+
+#deleting..
+del dic["math_marks"]
+print(dic)
+
+output :
+{'Name': 'prethul', 'age': 22, 'adress': 'Gazipur', 'numbers': [10, 20, 30]}
+{'Name': 'prethul', 'age': 22, 'adress': 'Gazipur', 'numbers': [10, 20, 30], 'math_marks': 85}
+{'Name': 'prethul', 'age': 22, 'adress': 'Gazipur', 'numbers': [10, 20, 30], 'math_marks': 85, 'english_marks': 81}
+{'Name': 'prethul', 'age': 22, 'adress': 'Gazipur', 'numbers': [10, 20, 30], 'english_marks': 81}
+
+#copying...
+dic_2 = dic.copy()
+print(dic_2)
+output :
+{'Name': 'prethul', 'age': 22, 'adress': 'Gazipur', 'numbers': [10, 20, 30], 'english_marks': 81}
+
+#testing
+dic_3 = {"key" : {"name" : "prethul", "age" : 22,"address" : "Gazipur"}}
+print(dic_3)
+
+output :
+{'key': {'name': 'prethul', 'age': 22, 'address': 'Gazipur'}}
+
