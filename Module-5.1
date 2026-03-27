@@ -1,0 +1,41 @@
+tup =(10,20,30,40)
+print(type(tup),tup)
+output :
+<class 'tuple'> (10, 20, 30, 40)
+
+float_tup =(10.23,45.5,66.6)
+print(type(float_tup), float_tup)
+output :
+<class 'tuple'> (10.23, 45.5, 66.6)
+
+mixed_tup =(10,10.5,"str",True)
+print(type(mixed_tup),mixed_tup)
+<class 'tuple'> (10, 10.5, 'str', True)
+
+lst =[10,20,30]
+tup1 = tuple(lst)
+print(type(tup1),tup1)
+output :
+<class 'tuple'> (10, 20, 30)
+
+#Access in tuple 
+tup = (10,20,"str",False)
+print(tup[3])
+
+#slicing
+new_tup = tup[0:3]
+print(new_tup)
+
+output:
+False
+(10, 20, 'str')
+
+#tuple method 
+tup =(10,20,30,40,10,40,10)
+
+print(tup.count(10))
+print(tup.index(40))
+output :
+3
+3
+
