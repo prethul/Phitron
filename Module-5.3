@@ -1,0 +1,30 @@
+#empty dictionary declaration 
+dic = {}
+print(type(dic))
+
+dic ={
+    "Name" : "prethul",
+    "age" : 22,
+    "adress" : "Gazipur",
+    "numbers" : [10,20,30]
+}
+print(dic)
+
+#access in dictionary 
+
+print(dic["Name"])
+print(dic["adress"])
+print(dic.get("age"))
+
+dic["Name"]="phitro AI/ML"
+
+print(dic)
+
+output :
+<class 'dict'>
+{'Name': 'prethul', 'age': 22, 'adress': 'Gazipur', 'numbers': [10, 20, 30]}
+prethul
+Gazipur
+22
+{'Name': 'phitro AI/ML', 'age': 22, 'adress': 'Gazipur', 'numbers': [10, 20, 30]}
+
