@@ -1,0 +1,30 @@
+saqure ={x:x**2 for x in range(1,11) if x%2 == 0}
+print(saqure)
+output :
+{2: 4, 4: 16, 6: 36, 8: 64, 10: 100}
+
+lst =[10,20,10,30,30,50,30,10,20,10,10]
+unique_values = set(lst)
+lst = list(unique_values)
+print(lst) 
+
+output :
+[10, 20, 50, 30]
+
+string = """Data Science is a field that focuses on collecting, analyzing, and interpreting data to make better decisions.
+In today’s digital world, a huge amount of data is generated every day from sources like social media,
+online shopping, and banking."""
+words = string.split()
+count ={}
+
+for word in words:
+    count[word] = count.get(word,0) + 1
+print(count) 
+
+output :
+{'Data': 1, 'Science': 1, 'is': 2, 'a': 2, 'field': 1, 'that': 1, 'focuses': 1,
+'on': 1, 'collecting,': 1, 'analyzing,': 1, 'and': 2, 'interpreting': 1, 'data': 2, 'to': 1, 'make': 1,
+'better': 1, 'decisions.': 1, 'In': 1, 'today’s': 1, 'digital': 1, 'world,': 1, 'huge': 1,
+'amount': 1, 'of': 1, 'generated': 1, 'every': 1, 'day': 1, 'from': 1, 'sources': 1, 'like': 1, 'social': 1, 
+'media,': 1, 'online': 1, 'shopping,': 1, 'banking.': 1}
+
