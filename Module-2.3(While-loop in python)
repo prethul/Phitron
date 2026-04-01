@@ -1,0 +1,16 @@
+count = 1 
+
+while count < 10 :
+    print("This is bangladesh")
+    count += 1
+output :
+This is bangladesh
+This is bangladesh
+This is bangladesh
+This is bangladesh
+This is bangladesh
+This is bangladesh
+This is bangladesh
+This is bangladesh
+This is bangladesh
+
