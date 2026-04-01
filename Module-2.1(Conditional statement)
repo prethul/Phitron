@@ -1,0 +1,43 @@
+raining = False
+
+if raining == True:
+    print("It is raining today...")
+    print("Not go there")
+else:
+    print("Not raining...")
+    print("Go there...")
+
+output :
+Not raining...
+Go there...
+
+raining = True
+Muddy = True
+
+if raining == True:
+    print("It is raining today...")
+    if Muddy == True:  #nested if/else ar kherte prothom conditioon true na hole nested if else print hobe na..
+        print("Don't go there!")
+    else:
+        print("Go there")
+else:
+    print("Not raining...")
+
+output :
+It is raining today...
+Go there
+
+taka = 1000
+raining = True
+
+if (taka > 500) and (raining == False):
+    print("Ghurte jabo....")
+elif (taka > 400) and (raining == True): #and operation a 2 ta conditon True hoite hobe tahole oi condition ar statement print hobe 
+    print("Basay order korbo ")
+else:
+    print("Save korbo")
+    
+output :
+Basay order korbo 
+    
+    
